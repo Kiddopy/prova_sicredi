@@ -1,0 +1,14 @@
+<!DOCTYPE suite>
+
+<suite name="regressionn" verbose="2" >
+	<listeners>
+		<listener class-name="org.dbserver.sicredi.provaSicredi.auxi.TestListener" />
+	</listeners>
+	
+    <test name="Prova Sicredi" >
+        <classes>
+            <class name="org.dbserver.sicredi.provaSicredi.testCases.CriarNovoCustomerTestCase" />
+            <class name="org.dbserver.sicredi.provaSicredi.testCases.CriarEDeletarCustomerTestCase" />
+        </classes>
+    </test>
+</suite>
